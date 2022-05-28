@@ -9,7 +9,7 @@ const ui = new UI();
 
 //Save to LS AND GET
 
-
+ui.showAllTasks();
 document.querySelector(".AddTaskBtn").addEventListener('click', e =>
 {
     console.log(e.target);
